@@ -1,0 +1,8 @@
+text = input("Введите текст: ")
+word = input("Введите слово: ")
+count = text.count(word)
+index = text.find(word)
+print(f"Количество: {count}")
+print(f"Индекс первого: {index}")
+new = text.replace(word, "")
+print(f"Без слова: {new}")
