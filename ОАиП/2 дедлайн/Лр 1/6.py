@@ -9,4 +9,3 @@ print(symbol, end="")
 j += 1
 print()
 i += 1
- ```
