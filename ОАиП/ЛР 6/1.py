@@ -1,6 +1,0 @@
-fio = input("Введите ваше ФИО: ")
-f, i, o = fio.split()
-f = f.capitalize()
-i = i.capitalize()
-o = o.capitalize()
-print("Добро пожаловать:", f, i, o)
