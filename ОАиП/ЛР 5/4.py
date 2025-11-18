@@ -1,5 +1,0 @@
-num = input("Введите 5 чисел через пробел: ").split()
-minnum = min(map(int, num))
-maxnum = max(map(int, num))
-print("Минимальное число:", minnum)
-print("Максимальное число:", maxnum)

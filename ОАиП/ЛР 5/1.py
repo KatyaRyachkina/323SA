@@ -1,8 +1,0 @@
-print("Введите два числа:")
-A= float(input("Первое число: "))
-B= float(input("Второе число: "))
-print("\n Результаты операций:")
-print(f"{A} + {B} = {A + B}")
-print(f"{A} - {B} = {A - B}")
-print(f"{A} * {B} = {A * B}")
-print(f"{A} / {B} = {A / B}")
