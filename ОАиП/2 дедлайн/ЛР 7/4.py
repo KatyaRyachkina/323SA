@@ -1,9 +1,6 @@
 call_counter = 0
 
 def increment_counter() -> None:
-    """
-    Увеличивает глобальную переменную call_counter на 1 при каждом вызове.
-    """
     global call_counter
     call_counter += 1
 
