@@ -1,3 +1,4 @@
 def greet_user(name):
-  """Функция выводит персональное приветствие"""
-print(f"Привет, {name}!")
+    print(f"Привет, {name}!")
+
+greet_user("Алиса")
