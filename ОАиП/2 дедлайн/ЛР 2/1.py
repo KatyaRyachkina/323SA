@@ -1,4 +1,3 @@
-```python
 n = int(input("Введите число: "))
 sum = 0
 i = 1
