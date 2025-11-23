@@ -1,9 +1,4 @@
 def format_report(report_title: str, *data: str, **properties: str) -> None:
-    """Форматирует и выводит отчет с заголовком, данными и свойствами.
-    Args:
-        report_title: Название отчета.
-        *data: Пункты отчета.
-        **properties: Метаданные отчета."""
     print(f"--- Отчет: {report_title} ---")
     print("Данные:")
     for item in data:
@@ -12,6 +7,7 @@ def format_report(report_title: str, *data: str, **properties: str) -> None:
     for key, value in properties.items():
         print(f" - {key}: {value}")
     print("-" * (len(report_title) + 16))
+
 format_report(
     "Ежедневный отчет",
     "Продажи выросли на 10%",
