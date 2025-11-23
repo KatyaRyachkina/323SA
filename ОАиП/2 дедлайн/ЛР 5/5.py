@@ -1,10 +1,9 @@
-math_students = {"Анна", "Борис", "Сергей", "Дмитрий"}
-physics_students = {"Борис", "Дмитрий", "Елена", "Федор"}
-cs_students = {"Анна", "Сергей", "Елена", "Галина"}
+math_students = {"Alice", "Bob", "Charlie", "David"}
+physics_students = {"Bob", "David", "Eve", "Frank"}
+cs_students = {"Alice", "Charlie", "Eve", "Grace"}
 
 all_three = math_students & physics_students & cs_students
 print(f"Все три курса: {all_three}")
-
 only_math = math_students - physics_students - cs_students
 only_physics = physics_students - math_students - cs_students
 only_cs = cs_students - math_students - physics_students
@@ -16,4 +15,4 @@ print(f"Математика но не физика: {math_not_physics}")
 
 all_students = math_students | physics_students | cs_students
 print(f"Всего студентов: {len(all_students)}")
-print(f"Все студенты: {all_students}")
+print(f"Все студенты: {all_students}") поменяй имена на русские
