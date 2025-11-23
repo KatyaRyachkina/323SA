@@ -8,4 +8,4 @@ elif dir == "straight":
 elif dir == "back":
     print("Иду назад")
 else: 
-    print("Неправильное направление"
+    print("Неправильное направление")
