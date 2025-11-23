@@ -12,3 +12,5 @@ def simple_calculator(num1, num2, operator):
             return "Ошибка: деление на ноль"
     else:
         return "Ошибка: неверный оператор"
+
+print(simple_calculator(10, 5, '*'))
