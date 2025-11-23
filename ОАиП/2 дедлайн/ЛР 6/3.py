@@ -1,5 +1,4 @@
 def power_v2(number, exponent=2):
-    """Функция возводит число в степень (по умолчанию в квадрат)"""
     if exponent == 0:
         return 1
     elif exponent > 0:
@@ -8,7 +7,8 @@ def power_v2(number, exponent=2):
             result *= number
         return result
     else:
-return 1 / power_v2(number, -exponent)
-print(power(3, 3)) 
-print(power(5))     
-print(power(2, 4))  
+        return 1 / power_v2(number, -exponent)
+
+print(power_v2(3, 3)) 
+print(power_v2(5))     
+print(power_v2(2, 4))
