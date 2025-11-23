@@ -1,5 +1,4 @@
 def simple_calculator(num1, num2, operator):
-    """Функция выполняет математические операции"""
     if operator == '+':
         return num1 + num2
     elif operator == '-':
